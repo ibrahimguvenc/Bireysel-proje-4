@@ -1,0 +1,193 @@
+body {
+  background-color: #131313;
+  color: #525252;
+  font-family: "Lobster", cursive;
+  font-family: "Source Serif Pro", serif;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+.sayfa {
+  width: 1000px;
+  margin: auto;
+}
+.ust {
+  background: #232323;
+}
+
+#logo {
+  float: left;
+  width: 260px;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+#logo h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+#logo h1 a {
+  font-family: Georgia;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 3px;
+}
+#logo p {
+  color: white;
+  font-family: Georgia;
+  margin-left: 3px;
+  margin-top: 0;
+  padding-top: 0;
+  letter-spacing: 2px;
+}
+
+#menu {
+  float: right;
+  width: 650px;
+  margin: 30px 0 0 0;
+  padding: 0;
+  font-size: 13px;
+  text-align: right;
+}
+#menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#menu ul li {
+  display: inline;
+  margin-right: 35px;
+}
+#menu ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  font-family: Verdana;
+  color: #fdc609;
+}
+#menu ul li a:hover {
+  color: white;
+}
+.orta {
+  margin-top: 20px;
+}
+.orta-sol {
+  width: 575px;
+  float: left;
+}
+.orta-sag {
+  width: 360px;
+  float: right;
+  height: 280px;
+  background: #fdc609;
+  padding: 10px;
+}
+.orta-sağ img {
+  box-shadow: 10px 10px 10px gray;
+}
+.orta-resim {
+  margin: 0 25px;
+}
+.card {
+  width: 250px;
+  float: left;
+  margin-right: 30px;
+  display: inline;
+  padding-left: 2%;
+  padding-right: 20px;
+}
+.card:nth-child(3) {
+  margin: 0px;
+}
+.card h1 {
+  border-bottom: 1px dotted white;
+  text-align: justify;
+  padding-bottom: 15px;
+}
+.button a {
+  display: inline-block;
+  padding: 10px 15px;
+  color: #fdc609;
+  background-color: #232323;
+  text-decoration: none;
+}
+.button a:hover {
+  color: #fdc609;
+  background-color: #232323;
+}
+.clear {
+  clear: both;
+}
+div p {
+  text-align: justify;
+}
+.card-orta-card {
+  width: 250px;
+  float: left;
+  margin-right: 30px;
+  display: inline;
+  padding-left: 2%;
+  padding-right: 20px;
+}
+
+.alt-card {
+  width: 250px;
+  float: left;
+  margin-right: 30px;
+  display: inline;
+  padding-left: 2%;
+  padding-right: 20px;
+}
+.alt-card h1 {
+  border-bottom: 1px dotted white;
+  text-align: justify;
+  padding-bottom: 15px;
+}
+
+.card-orta-card h1 {
+  border-bottom: 1px dotted white;
+  text-align: justify;
+  padding-bottom: 15px;
+}
+.ürün1 {
+  width: auto;
+  float: right;
+  /* margin-right: 30px; */
+  padding-left: 2%;
+  padding-right: 20px;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("banner.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.ürün1 h1 {
+  padding-top: 10%;
+  color: white;
+  font-size: 50px;
+}
+.ürün1 p {
+  color: #fdc609;
+  font-size: 25px;
+}
+.ürün1 a {
+  float: right;
+  padding-left: 50%;
+  color: black;
+  font-size: 15px;
+  font-style: italic;
+}
+.ürün1 a:link,
+a:visited {
+  background-color: #fffbfa;
+  color: black;
+  padding: 24px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.ürün1 a:hover,
+a:active {
+  background-color: #fdc609;
+}
